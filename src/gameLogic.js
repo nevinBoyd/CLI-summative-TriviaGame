@@ -1,5 +1,5 @@
 import { select, input } from "@inquirer/prompts";
-import { gameState, resetGameState } from "./state.js";
+import { gameState, resetGameState } from "./lib/state.js";
 import { questions } from "./questions.js";
 export async function showMainMenu(state) {
     while (true) {

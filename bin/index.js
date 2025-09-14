@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { program } from "commander";
-import { showMainMenu } from "../src/lib/gameLogic.js";
+import { showMainMenu } from "../src/gameLogic.js";
 import { gameState } from "../src/lib/state.js";
 
 
