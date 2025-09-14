@@ -1,6 +1,6 @@
 import chalk from "chalk";
 import { select, input } from "@inquirer/prompts";
-import { questions } from "./questions.js";
+import { questions } from "../questions.js";
 
 export const gameState = {
     name: "",
