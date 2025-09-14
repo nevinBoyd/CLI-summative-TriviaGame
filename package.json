@@ -1,0 +1,16 @@
+{
+  "name": "cli-summative-triviagame",
+  "version": "1.0.0",
+  "description": "Random Trivia the CLI Edition",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "nboyd",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
