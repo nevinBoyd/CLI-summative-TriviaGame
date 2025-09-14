@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1757818735520" clover="3.2.0">
+  <project timestamp="1757818735520" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8" elements="28" coveredelements="28" complexity="0" loc="18" ncloc="18" packages="1" files="3" classes="3"/>
+    <file name="countdown.js" path="/home/nboyd/Flatiron2/summative/CLI-summative-TriviaGame/src/countdown.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="20" count="5" type="stmt"/>
+      <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+    </file>
+    <file name="recurringTimer.js" path="/home/nboyd/Flatiron2/summative/CLI-summative-TriviaGame/src/recurringTimer.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="6" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+    </file>
+    <file name="reminder.js" path="/home/nboyd/Flatiron2/summative/CLI-summative-TriviaGame/src/reminder.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

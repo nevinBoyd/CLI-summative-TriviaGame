@@ -1,9 +1,15 @@
-const gameState = {
+// src/state.js
+
+export const gameState = {
     playerName: "",
     stats: {
-        correct: 0,
-        incorrect: 0,
-    },
+        score: 0,
+        answers: [] // will store objects like { question: "Q1...", answer: "Austin Powers...", correct: true/false }
+    }
 };
 
-export default gameState;
+export function resetGameState() {
+    gameState.playerName = "";
+    gameState.stats.score = 0;
+    gameState.stats.answers = [];
+}
