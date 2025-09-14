@@ -1,10 +1,14 @@
-#!/usr/bin/env node
+// src/state.js
+export const gameState = {
+    playerName: "",
+    stats: {
+        score: 0,
+        answers: [] // { question, answer, correct, correctAnswer }
+    }
+};
 
-import { program } from "commander";
-import { gameState } from "../src/state.js";   // ✅ use named import
-import { showMainMenu } from "../src/gameLogic.js";
-
-showMainMenu(gameState);
-
-program.parse(process.argv);
-
+export function resetGameState() {
+    gameState.playerName = "";
+    gameState.stats.score = 0;
+    gameState.stats.answers = [];
+}
