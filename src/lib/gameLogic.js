@@ -32,7 +32,7 @@ export async function showMainMenu() {
             break;
         case "reset":
             gameState.stats = { wins: 0, losses: 0 };
-            console.log(chalk.blue("Wiping Memory... forget about the cake 🍰"));
+            console.log(chalk.blue("Wiping Memory... forget about the cake"));
             await showMainMenu();
             break;
         case "end":
