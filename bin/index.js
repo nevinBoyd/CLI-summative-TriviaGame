@@ -1,6 +1,10 @@
 #!/usr/bin/env node
-import { select, input } from "@inquirer/prompts";
-import { questions } from "./src/questions.js";
+import { program } from "commander";
+import gameState from "../src/lib/state.js";
+import { showMainMenu } from "../src/lib/gameLogic.js";
+
+showMainMenu(gameState);
+program.parse(process.argv);
 
 let gameState = {
     name: "",
